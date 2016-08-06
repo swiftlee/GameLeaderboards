@@ -1,0 +1,20 @@
+name: GameLeaderboards
+author: SwiftLee
+version: 1.0
+main: org.royalmc.GL.GameLeaderboards
+description: The GameLeaderboards plugin for RoyalMC!
+
+commands:
+        updateLeaderboard:
+             usage: /<command>
+             aliases: [ul, leaderboardupdate]
+        rlc:
+             usage: /<command>
+             aliases: [reloadLeaderboardConfig, reloadLC, rLeaderboardConfig]
+        updateAuto:
+             usage: /<command>
+        setLocation:
+             usage: /<command>
+        rotatearmorstands:
+             usage: /<command>
+             aliases: [ra, rotatea, rotarmorstands, rarmorstands]

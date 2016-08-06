@@ -1,0 +1,58 @@
+#SQL SETUP (SAME AS IN YOUR UHC PLUGIN CONFIG)
+hostname: "localhost"
+port: "3306"
+databasename: "speeduhc"
+username: "speeduhc"
+password: "password"
+tablename: "SpeedUHCTable"
+
+locations:
+     num1: 
+          x: 
+          y:
+          z:
+     num2:
+          x:
+          y:
+          z:
+     num3:
+          x:
+          y:
+          z:
+     num4:
+          x:
+          y:
+          z:
+     num5:
+          x:
+          y:
+          z:
+
+worldName: "world"
+
+#Armor stand yaw (x-rotation)
+pitch: 180
+
+colors:
+     rank: "&e&l"
+     name: "&9"
+     wins: "&6"
+
+#Turns on auto updating function. Execute the command to enable /updateAuto
+autoUpdateStats: true
+#autoInterval is in ticks, so do 20 * amount of seconds
+autoInterval: 6000
+
+#MAKE SURE colorPrefix MATCHES THE & COLOR CODE IN THE HUBADDRESS!
+ipAnim:
+     color: "&6"
+     colorPrefix: "&8" 
+
+titleAnim:
+     color1: "&e&l"
+     color2: "&b&l"
+     color3: "&c&l"
+     color4: "&d&l"
+     color5: "&a&l"
+     title: "UHC Dash"
+     colorPrefix: "&6&l"
